@@ -1,2 +1,41 @@
 
 /* Your CSS Code here. */
+/* ================================
+   Styles for the Box Model Component
+   ================================
+*/
+#box-model-demo {
+    /* 1. Margin: 20px around the box */
+    margin: 20px; 
+    
+    /* 2. Border: 15px solid blue */
+    border: 15px solid blue; 
+
+    /* 3. Padding: 50px inside the box */
+    padding: 50px; 
+
+    /* 4. Width: The width of the content area must be exactly 300px */
+    width: 300px; 
+    
+    /* 5. Background Color: lightblue (applies to content and padding areas) */
+    background-color: lightblue; 
+    
+    /* Optional: Improves readability and matches the appearance of the text in the image */
+    color: #333; 
+    font-family: monospace; 
+}
+
+/* ================================
+   Optional: Body/Layout Styles 
+   (Used to center the box on the screen for better viewing)
+   ================================
+*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ensures the centering works for the full screen height */
+    min-height: 100vh; 
+    margin: 0;
+    background-color: #f0f0f0; /* Light background for contrast */
+}
